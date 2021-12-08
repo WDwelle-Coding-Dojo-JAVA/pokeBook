@@ -6,8 +6,7 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 import com.wdwelle.pokeBook.models.Expense;
-import com.wdwelle.pokeBook.services.*;
-
+import com.wdwelle.pokeBook.repositories.*;
 @Service
 public class ExpenseService {
 	private final ExpenseRepository expenseRepo;

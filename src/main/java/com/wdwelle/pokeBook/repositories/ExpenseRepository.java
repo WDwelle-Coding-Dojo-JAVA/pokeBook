@@ -6,6 +6,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.wdwelle.pokeBook.models.Expense;
 
-public interface PokeBookRepository extends CrudRepository<Expense, Long>{
+public interface ExpenseRepository extends CrudRepository<Expense, Long>{
 	List<Expense> findAll();
 }
